@@ -10,3 +10,15 @@ float getSum(std::vector<float> numbers)
     return sum;
 }
 
+float getMin(std::vector<float> numbers)
+{
+    float min = numbers[0];
+    for (int i = 0; i < numbers.size(); i++)
+    {
+        if (numbers[i] < min)
+        {
+            min = numbers[i];
+        }
+    }
+    return min;
+}

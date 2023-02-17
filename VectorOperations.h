@@ -5,5 +5,6 @@
 #include <vector>
 
 float getSum(std::vector<float> numbers);
+float getMin(std::vector<float> numbers);
 
 #endif
