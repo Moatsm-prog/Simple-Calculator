@@ -6,5 +6,6 @@
 
 float getSum(std::vector<float> numbers);
 float getAverage(std::vector<float> numbers);
+float getMin(std::vector<float> numbers);
 
 #endif
