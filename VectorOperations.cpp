@@ -10,3 +10,8 @@ float getSum(std::vector<float> numbers)
     return sum;
 }
 
+float getAverage(std::vector<float> numbers)
+{
+    float sum = getSum(numbers);
+    return sum / numbers.size();
+}

@@ -5,5 +5,6 @@
 #include <vector>
 
 float getSum(std::vector<float> numbers);
+float getAverage(std::vector<float> numbers);
 
 #endif
