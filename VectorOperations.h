@@ -4,5 +4,6 @@
 #include <iostream>
 #include <vector>
 
+float getSum(std::vector<float> numbers);
 
 #endif
